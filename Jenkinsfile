@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
         script {
           checkout scm
@@ -14,6 +14,6 @@ pipeline {
 
   }
   environment {
-    registry = 'konstantinfomenko / ci-cd-online-session'
+    registry = 'konstantinfomenko/ci-cd-online-session'
   }
 }
